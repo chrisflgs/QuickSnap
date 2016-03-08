@@ -29,7 +29,6 @@ namespace CardGames
 
 			if (myGame.IsStarted)
 			{
-				Console.WriteLine("111");
 				if (SwinGame.KeyTyped (KeyCode.vk_LSHIFT) &&
 					SwinGame.KeyTyped (KeyCode.vk_RSHIFT))
 				{
